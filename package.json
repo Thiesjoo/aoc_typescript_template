@@ -1,0 +1,29 @@
+{
+	"name": "aoc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "./run.sh"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Thiesjoo/aoc2020.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Thiesjoo/aoc2020/issues"
+	},
+	"homepage": "https://github.com/Thiesjoo/aoc2020#readme",
+	"adventConfig": {
+		"year": "2020",
+		"nameTemplate": "{{num}}/index.js",
+		"templateFile": "template/day.ts"
+	},
+	"dependencies": {
+		"advent-of-code": "^5.0.0",
+		"performance-now": "^2.1.0",
+		"typescript": "^4.4.3"
+	}
+}
