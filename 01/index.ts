@@ -6,9 +6,12 @@ import { default as now } from "performance-now";
 
 const part1 = (input: string) => {
 	const start = now();
-	let result = 0;
+	let result;
+	//asd
 
 	const data = input.split("\n");
+
+	result = data[0] + " asd";
 
 	const end = now();
 	console.log("Execution time: ~%dms", (end - start).toFixed(3));
@@ -25,6 +28,8 @@ const part2 = (input: string) => {
 	let result = 0;
 
 	const data = input.split("\n");
+
+	console.log("it just wekrs");
 
 	const end = now();
 	console.log("Execution time: ~%dms", (end - start).toFixed(3));
