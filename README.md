@@ -1,18 +1,16 @@
-# Advent of Code 2020
+# Advent of Code Template
 
-### Code written by Thies Nieborg
+Template made by [Thies](https://github.com/thiesjoo)
 
 ## Usage
 
-Paste input data in `input.txt` in the correct folder
+Generate initial directory with `./advent init (day)`.
+Paste your input data in `input.txt` in the new folder.
 
-Run with command:
+Compile and run your code with:
 `DAY=01 PART=01 ./run.sh`
 Where you can vary the `DAY` and `PART` variables
 
-Create a new day with
-`./advent init <day>`
-
 ## Important features/notes
 
-In the `template` folder you can find a standard template, with input parsing and timing
+In the `template` folder you can find a standard template, with input parsing and timing. Change this to alter the new initial file creation
